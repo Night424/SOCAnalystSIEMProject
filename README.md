@@ -90,14 +90,9 @@ This repo includes examples such as:
 ├── architecture/
 ├── attack-scenarios/
 ├── configs/
-│   ├── firewallRuleAdd.ps1
-│   └── netplan.yaml
 ├── detection-rules/
 ├── incident-reports/
 └── scripts/
-    ├── customEventSource.ps1
-    ├── installWazuh.sh
-    └── testEvent.ps1
 ```
 
 - `architecture`: diagrams and deployment notes
