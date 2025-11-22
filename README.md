@@ -45,12 +45,12 @@ This project is ideal for SOC Analyst and Cybersecurity Analyst.
 ## Tools Used
 * **Wazuh SIEM** – log collection, detection rules, dashboard
 * **Elastic Stack (Wazuh Indexer)** – log indexing & storage
-* **Windows 10 VM** – endpoint monitoring
-* **Linux VM (Ubuntu/Kali)** – server & attacker machine
+* **Windows 11 Laptop** – endpoint monitoring
+* **Linux VM (Ubuntu)** – server & attacker machine
 * **Sysmon** – advanced Windows logging
 * **SwiftOnSecurity Sysmon Config** – clean & security-focused config
 * **Python / PowerShell** – alert automations
-* **VirtualBox / VMware** – virtualization environment
+* **VirtualBox** – virtualization environment
 
 ---
 
@@ -84,7 +84,28 @@ This repo includes examples such as:
 ---
 
 ## Repository Structure (WIP)
+```
+.
+├── README.md
+├── architecture/
+├── attack-scenarios/
+├── configs/
+│   ├── firewallRuleAdd.ps1
+│   └── netplan.yaml
+├── detection-rules/
+├── incident-reports/
+└── scripts/
+    ├── customEventSource.ps1
+    ├── installWazuh.sh
+    └── testEvent.ps1
+```
 
+- `architecture`: diagrams and deployment notes
+- `attack-scenarios`: step-by-step simulated attacks used for testing
+- `configs`: example configuration files and helper scripts
+- `detection-rules`: Wazuh/ELK rule examples for detections
+- `incident-reports`: SOC-style investigation writeups for scenarios
+- `scripts`: automation and test scripts (PowerShell, shell)
 
 ---
 
