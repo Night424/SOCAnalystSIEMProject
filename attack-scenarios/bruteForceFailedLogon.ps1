@@ -1,0 +1,1 @@
+for ($i=1;$i -le 10;$i++){Invoke-Command -ComputerName localhost -Credential (New-Object System.Management.Automation.PSCredential('fake', (ConvertTo-SecureString 'wrong' -AsPlainText -Force)))}
