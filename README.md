@@ -121,9 +121,3 @@ These reports demonstrate real SOC workflow and decision-making.
 
 
 ---
-
-## Why This Project Is Valuable
-* Shows real hands-on SOC skills
-* Demonstrates SIEM knowledge
-* Includes incident reports for interviews
-* Portfolio project for cybersecurity roles
